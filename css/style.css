@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --color-red: hsl(0, 78%, 62%);
+    --color-cyan: hsl(180, 62%, 55%);
+    --color-orange: hsl(34, 97%, 64%);
+    --color-blue: hsl(212, 86%, 64%);
+
+    --color-darkBlue: hsl(234, 12%, 34%);
+    --color--grayBlue: hsl(229, 6%, 66%);
+    --color-lightGray: hsl(0, 0%, 98%);
+}
+html {
+    font-size: 93.75%;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    width: 33%;
+    text-align: center;
+    margin: 3rem auto 1.5rem auto;
+}
+header h1 {
+    color: var(--color-darkBlue);
+    font-size: 1.9rem;
+    font-weight: 100;
+    margin-bottom: 1rem;
+}
+header h1 span {
+    font-weight: 600;
+}
+header p {
+    font-size: .9rem;
+    color: var(--color--grayBlue);
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto 2rem auto;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.col {
+    width: 33%;
+}
+.box {
+    padding: 1.5rem;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.15);
+    height: fit-content;
+    border-radius: .3rem;
+}
+.box-1 {
+    border-top: 3px solid var(--color-cyan);
+}
+.box-2 {
+    border-top: 3px solid var(--color-red);
+    width: 100%;
+}
+.box-3
+ {
+    border-top: 3px solid var(--color-orange);
+}
+.box-4 {
+    border-top: 3px solid var(--color-blue);
+}
+.box__middle {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.box h2 {
+    color: var(--color-darkBlue);
+    font-size: 1rem;
+}
+.box p {
+    color: var(--color--grayBlue);
+    font-size: .8rem;
+}
+
+.icon{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 3rem 4rem 0 0;
+}
+.icon img {
+    display: block;
+    width: 2.5rem;
+}
+
+@media screen and (max-width: 800px) {
+    header {
+        width: 50%;
+    }
+    .container {
+        width: 95%;
+    }
+}
+@media screen and (max-width: 600px) {
+    body {
+        padding: 4rem 2rem ;
+    }
+    header {
+        margin: 0 0 2rem 0;
+        width: fit-content;
+    }
+    header h1 {
+        font-size: 1.6rem;
+    }
+    header p {
+        font-size: 1rem;
+    }
+    .container {
+        width: 95%;
+        flex-direction: column;
+    }
+    .col {
+        width: 100%;
+    }
+}
