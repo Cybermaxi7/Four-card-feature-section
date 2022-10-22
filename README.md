@@ -20,7 +20,7 @@ Users should be able to:
 
 ![](./images/Screenshot%20from%202022-10-22%2014-51-23.png)
 ![](./images/Screenshot%20from%202022-10-22%2014-51-33.png)
-![](./images/Screenshot%20from%202022-10-22%2014-51-50.png)
+![](./images/Screenshot%20from%202022-10-22%2015-04-38.png)
 
 ### Links
 
